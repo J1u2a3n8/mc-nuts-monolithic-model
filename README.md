@@ -1,14 +1,73 @@
-# MCNuts API Monolithic architectural model
+# mc-nuts-monolithic-model
 
-![147183119_491843355551038_4736773095611486819_n](https://user-images.githubusercontent.com/74753713/147301138-a618d11b-c980-493f-9fa2-faf8278498fb.jpg)
+> Modelo arquitectonico monolito
 
+![Language](https://img.shields.io/github/languages/top/J1u2a3n8/mc-nuts-monolithic-model)
+![License](https://img.shields.io/github/license/J1u2a3n8/mc-nuts-monolithic-model)
+![Last Commit](https://img.shields.io/github/last-commit/J1u2a3n8/mc-nuts-monolithic-model)
+![Stars](https://img.shields.io/github/stars/J1u2a3n8/mc-nuts-monolithic-model?style=social)
+![Issues](https://img.shields.io/github/issues/J1u2a3n8/mc-nuts-monolithic-model)
 
+## 📋 Descripción
 
-# LANGUAGE
-* C#
+Proyecto backend que muestra competencias en APIs, arquitectura limpia y patrones. Migrado, historial reescrito, documentado para portfolio.
 
-# BUSINESS DESCRIPTION 
-The enterprise of sales of peanut snacks McNuts wants to expand its way of interacting with its customers so we developed a web application (McNuts API) which initially allows to interact through any extension HTTP REST requests that are made on the entities of customers and peanuts, the functionality of the web application is based on that you can perform CRUD operations on both entities, for the development of this application was used the pattern of monolithic architecture based on layers or layer
+## 🏗️ Arquitectura
 
-# NOTE
-* The c4 diagrams can be found as assets in the repository.
+Clean Architecture / Layered Architecture
+
+## 🚀 Inicio Rápido
+
+### Prerrequisitos
+
+.NET 8 SDK, Node.js 20+ (para mc-nuts-api-design)
+
+### Instalación
+
+```bash
+# Clonar
+git clone https://github.com/J1u2a3n8/mc-nuts-monolithic-model.git
+cd mc-nuts-monolithic-model
+
+dotnet restore
+# dotnet build
+```
+
+### Uso
+
+```bash
+dotnet run --project src/
+```
+
+## 🧪 Tests
+
+```bash
+dotnet test
+```
+
+## 📁 Estructura del Proyecto
+
+```
+mc-nuts-monolithic-model/
+├── src/              # Código fuente principal
+├── tests/            # Tests unitarios/integración
+├── docs/             # Documentación
+├── .github/          # Workflows CI/CD
+└── README.md
+```
+
+## 🛠️ Tech Stack
+
+**C#**, .NET 8
+
+## 📄 Licencia
+
+Este proyecto está bajo licencia **MIT** - ver [LICENSE](LICENSE) para detalles.
+
+## 👤 Autor
+
+**J1u2a3n8** - [GitHub](https://github.com/J1u2a3n8) - [LinkedIn](https://linkedin.com/in/juanluiscanedo)
+
+---
+
+⭐ Si este proyecto te fue útil, ¡dale una estrella!
